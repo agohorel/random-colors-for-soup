@@ -1,9 +1,11 @@
 const btn = document.querySelector("button");
 const color = document.querySelector(".color");
+const smiley = document.querySelector("p");
 
 btn.addEventListener("click", () => {
   color.style.backgroundColor = makeColor();
   btn.style.backgroundColor = makeColor();
+  smiley.style.color = makeColor();
 });
 
 function makeColor() {
