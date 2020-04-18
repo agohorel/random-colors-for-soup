@@ -4,7 +4,7 @@ const smiley = document.querySelector("p");
 const player = document.querySelector(".player");
 
 btn.addEventListener("click", () => {
-  color.style.backgroundImage = `linear-gradient(to bottom right, ${makeColor()}, ${makeColor()}, ${makeColor()})`;
+  color.style.backgroundImage = `linear-gradient(45deg, ${makeColor()}, ${makeColor()}, ${makeColor()}), linear-gradient(113deg, ${makeColor()}, ${makeColor()}, ${makeColor()}), linear-gradient(235deg, ${makeColor()}, ${makeColor()}, ${makeColor()})`;
   btn.style.backgroundColor = makeColor();
   smiley.style.color = makeColor();
 
