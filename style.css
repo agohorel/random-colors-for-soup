@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease-out background-color;
+}
+
+button {
+  border: none;
+  padding: 12px 18px;
+  border-radius: 5px;
+  background-color: #126de4;
+  color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  transition: 0.2s ease-out all;
+}
+
+button:hover {
+  opacity: 0.9;
+  color: black;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+}
